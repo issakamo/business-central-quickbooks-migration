@@ -1,0 +1,62 @@
+QBO Account,QBO Type,BC No.,BC Name,Action,BC Account Type,Load Method,Notes
+Operating Checking,Bank,18200,Operating Checking,Rename,Posting,Bank account ledger,Bank subledger; balance loaded on the bank account record
+Payroll Checking,Bank,18210,Payroll Checking,New,Posting,Bank account ledger,Bank subledger
+Savings,Bank,18220,Savings,New,Posting,Bank account ledger,Bank subledger
+Accounts Receivable (A/R),Accounts receivable (A/R),15110,Accounts Receivable,Rename,Posting,Customer ledger,Control account; loaded as open invoices; QBO balance is the reconciliation target
+Inventory Asset,Other Current Assets,14140,Inventory Asset,Rename,Posting,Item journal,Control account; loaded as quantity and cost per item
+Undeposited Funds,Other Current Assets,,,Not migrated,,Not loaded,Must be zero at cutover; any balance goes to the issues log
+Prepaid Expenses,Other Current Assets,16600,Prepaid Expenses,Rename,Posting,G/L journal,
+Employee Advances,Other Current Assets,15910,Employee Advances,Rename,Posting,G/L journal,
+Delivery Vehicles,Fixed Assets,12230,Delivery Vehicles,Rename,Posting,G/L journal,G/L balance only; no fixed asset module
+Warehouse Equipment,Fixed Assets,12210,Warehouse Equipment,Rename,Posting,G/L journal,G/L balance only
+Office Furniture & Equipment,Fixed Assets,12250,Office Furniture & Equipment,New,Posting,G/L journal,G/L balance only
+Accumulated Depreciation,Fixed Assets,12900,Accumulated Depreciation,Keep,Posting,G/L journal,
+Security Deposits,Other Assets,13500,Security Deposits,Rename,Posting,G/L journal,
+Accounts Payable (A/P),Accounts payable (A/P),22100,Accounts Payable,Rename,Posting,Vendor ledger,Control account; loaded as unpaid bills; QBO balance is the reconciliation target
+Company Credit Card,Credit Card,22510,Company Credit Card,New,Posting,Bank account ledger,Set up as a BC bank account (statement reconciliation); bank account posting group points to this liability account; balance is negative
+NC Department of Revenue Payable,Other Current Liabilities,23100,"Sales Tax Payable, NC",Rename,Posting,G/L journal,Tax account for North Carolina jurisdictions
+SC Department of Revenue Payable,Other Current Liabilities,23110,"Sales Tax Payable, SC",New,Posting,G/L journal,Tax account for South Carolina jurisdictions
+Payroll Liabilities,Other Current Liabilities,24100,Payroll Liabilities,Rename,Posting,G/L journal,
+Accrued Expenses,Other Current Liabilities,26700,Accrued Expenses,Rename,Posting,G/L journal,
+Customer Deposits,Other Current Liabilities,22300,Customer Deposits,Rename,Posting,G/L journal,"Kept as a G/L liability, as in QuickBooks"
+Equipment Loan,Long Term Liabilities,21300,Equipment Loan,Rename,Posting,G/L journal,
+Vehicle Loan,Long Term Liabilities,21310,Vehicle Loan,New,Posting,G/L journal,
+Opening Balance Equity,Equity,,,Not migrated,,Not loaded,Must be zero; the accountant reclassifies any balance before cutover
+Common Stock,Equity,30200,Common Stock,Rename,Posting,G/L journal,
+Shareholder Distributions,Equity,30320,Shareholder Distributions,Rename,Posting,G/L journal,
+Retained Earnings,Equity,30300,Retained Earnings,Rename,Posting,G/L journal,Prior years' results
+"(new, BC only)",,25900,Opening Balance Clearing,New,Posting,All opening journals,Temporary; must be exactly zero after all opening balances are posted
+Sales,Income,40100,Sales,Rename,Begin-Total,Heading,"QBO parent account; End-Total 40199 renamed 'Total, Sales'"
+Sales:Cleaning Chemicals,Income,40140,"Sales, Cleaning Chemicals",Rename,Posting,G/L journal,YTD balance; sales account for the CHEMICALS product posting group
+Sales:Paper & Can Liners,Income,40150,"Sales, Paper & Can Liners",New,Posting,G/L journal,YTD balance; sales account for the PAPER product posting group
+Sales:Equipment & Tools,Income,40160,"Sales, Equipment & Tools",New,Posting,G/L journal,YTD balance; sales account for the EQUIPMENT product posting group
+Delivery Income,Income,40390,Delivery Income,Rename,Posting,G/L journal,YTD balance
+Discounts Given,Income,40910,Discounts Given,Rename,Posting,G/L journal,YTD balance; also the sales discount account in posting setup
+Interest Earned,Other Income,40330,Interest Earned,Rename,Posting,G/L journal,YTD balance; set Account Category to Income (template has Expense)
+Cost of Goods Sold,Cost of Goods Sold,50110,Cost of Goods Sold,Rename,Posting,G/L journal,YTD balance; COGS account for all product posting groups
+Freight In,Cost of Goods Sold,50130,Freight In,New,Posting,G/L journal,YTD balance
+Inventory Shrinkage,Cost of Goods Sold,50140,Inventory Shrinkage,New,Posting,G/L journal,YTD balance; Inventory Adjmt. Account for normal posting groups
+Rent,Expenses,60110,Rent,Rename,Posting,G/L journal,YTD balance
+Utilities,Expenses,60120,Utilities,Rename,Posting,G/L journal,YTD balance
+Insurance,Expenses,65100,Insurance,Rename,Posting,G/L journal,YTD balance
+Payroll Expenses,Expenses,71000,Payroll Expenses,Rename,Begin-Total,Heading,"QBO parent account; End-Total 71999 renamed 'Total, Payroll Expenses'"
+Payroll Expenses:Wages,Expenses,71100,Wages,Rename,Posting,G/L journal,YTD balance
+Payroll Expenses:Payroll Taxes,Expenses,71200,Payroll Taxes,New,Posting,G/L journal,YTD balance; employer share
+Payroll Expenses:Employee Benefits,Expenses,71300,Employee Benefits,New,Posting,G/L journal,YTD balance
+Contract Labor,Expenses,68190,Contract Labor,Rename,Posting,G/L journal,"YTD balance; 1099 reporting is set on the vendors, not the account"
+Vehicle Expenses,Expenses,62100,Vehicle Expenses,Keep,Begin-Total,Heading,QBO parent account
+Vehicle Expenses:Fuel,Expenses,62120,Fuel,Rename,Posting,G/L journal,YTD balance
+Vehicle Expenses:Repairs,Expenses,62190,Vehicle Repairs,Rename,Posting,G/L journal,YTD balance
+Repairs & Maintenance,Expenses,60160,Repairs & Maintenance,Rename,Posting,G/L journal,YTD balance
+Office Supplies,Expenses,64100,Office Supplies,Keep,Posting,G/L journal,YTD balance
+Software Subscriptions,Expenses,64600,Software Subscriptions,Rename,Posting,G/L journal,YTD balance
+Telephone & Internet,Expenses,64200,Telephone & Internet,Rename,Posting,G/L journal,YTD balance
+Advertising & Marketing,Expenses,63190,Advertising & Marketing,Rename,Posting,G/L journal,YTD balance
+Bank Charges & Fees,Expenses,67100,Bank Charges & Fees,Rename,Posting,G/L journal,YTD balance
+Merchant Account Fees,Expenses,63410,Merchant Account Fees,Rename,Posting,G/L journal,YTD balance
+Legal & Professional Fees,Expenses,68150,Legal & Professional Fees,Rename,Posting,G/L journal,YTD balance
+Depreciation Expense,Expenses,61900,Depreciation Expense,New,Posting,G/L journal,YTD balance; no template account exists
+Travel,Expenses,62340,Travel,Rename,Posting,G/L journal,YTD balance
+Meals,Expenses,63420,Meals,Rename,Posting,G/L journal,YTD balance
+Uncategorized Expense,Expenses,,,Not migrated,,Not loaded,Must be zero; the accountant classifies any balance before cutover
+Interest Expense,Other Expense,67200,Interest Expense,Rename,Posting,G/L journal,YTD balance
