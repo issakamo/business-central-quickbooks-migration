@@ -1,0 +1,39 @@
+Table,Change,Detail,Reason / source
+Payment Terms,ADD,Code=RECEIPT | Due Date Calculation=0D | Discount %=0 | Description=Due on receipt,"D-012: QuickBooks ""Due on receipt"""
+Payment Terms,ADD,"Code=2%10NET30 | Due Date Calculation=30D | Discount Date Calculation=10D | Discount %=2 | Description=2% 10, Net 30","D-012: QuickBooks ""2% 10 Net 30"""
+321 Tax Group,CHANGE,SUPPLIES: Description Taxable Olympic Supplies -> Taxable supplies,"Template description refers to CRONUS (""Olympic"")"
+320 Tax Jurisdiction,ADD,Code=NC | Description=North Carolina state | Tax Account (Sales)=23100 | Report-to Jurisdiction=NC | Name=North Carolina state | Country/Region=US | Print Order=1 | Print Description=NC state tax,D-011
+320 Tax Jurisdiction,ADD,"Code=NCMECK | Description=Mecklenburg County, NC | Tax Account (Sales)=23100 | Report-to Jurisdiction=NC | Name=Mecklenburg County, NC | Country/Region=US | Print Order=2 | Print Description=Mecklenburg County tax",D-011
+320 Tax Jurisdiction,ADD,"Code=NCCABARRUS | Description=Cabarrus County, NC | Tax Account (Sales)=23100 | Report-to Jurisdiction=NC | Name=Cabarrus County, NC | Country/Region=US | Print Order=2 | Print Description=Cabarrus County tax",D-011
+320 Tax Jurisdiction,ADD,"Code=NCGASTON | Description=Gaston County, NC | Tax Account (Sales)=23100 | Report-to Jurisdiction=NC | Name=Gaston County, NC | Country/Region=US | Print Order=2 | Print Description=Gaston County tax",D-011
+320 Tax Jurisdiction,ADD,"Code=NCUNION | Description=Union County, NC | Tax Account (Sales)=23100 | Report-to Jurisdiction=NC | Name=Union County, NC | Country/Region=US | Print Order=2 | Print Description=Union County tax",D-011
+320 Tax Jurisdiction,ADD,Code=SC | Description=South Carolina state | Tax Account (Sales)=23110 | Report-to Jurisdiction=SC | Name=South Carolina state | Country/Region=US | Print Order=1 | Print Description=SC state tax,D-011
+320 Tax Jurisdiction,ADD,"Code=SCYORK | Description=York County, SC | Tax Account (Sales)=23110 | Report-to Jurisdiction=SC | Name=York County, SC | Country/Region=US | Print Order=2 | Print Description=York County tax",D-011
+320 Tax Jurisdiction,ADD,"Code=SCLANCAST | Description=Lancaster County, SC | Tax Account (Sales)=23110 | Report-to Jurisdiction=SC | Name=Lancaster County, SC | Country/Region=US | Print Order=2 | Print Description=Lancaster County tax",D-011
+318 Tax Area,ADD,"Code=NC-MECK | Description=Mecklenburg County, NC | Country/Region=US | Round Tax=To Nearest",D-011
+319 Tax Area Line,ADD,Tax Area=NC-MECK | Tax Jurisdiction Code=NC | Calculation Order=1,State rate
+319 Tax Area Line,ADD,Tax Area=NC-MECK | Tax Jurisdiction Code=NCMECK | Calculation Order=2,County rate
+318 Tax Area,ADD,"Code=NC-CABARRUS | Description=Cabarrus County, NC | Country/Region=US | Round Tax=To Nearest",D-011
+319 Tax Area Line,ADD,Tax Area=NC-CABARRUS | Tax Jurisdiction Code=NC | Calculation Order=1,State rate
+319 Tax Area Line,ADD,Tax Area=NC-CABARRUS | Tax Jurisdiction Code=NCCABARRUS | Calculation Order=2,County rate
+318 Tax Area,ADD,"Code=NC-GASTON | Description=Gaston County, NC | Country/Region=US | Round Tax=To Nearest",D-011
+319 Tax Area Line,ADD,Tax Area=NC-GASTON | Tax Jurisdiction Code=NC | Calculation Order=1,State rate
+319 Tax Area Line,ADD,Tax Area=NC-GASTON | Tax Jurisdiction Code=NCGASTON | Calculation Order=2,County rate
+318 Tax Area,ADD,"Code=NC-UNION | Description=Union County, NC | Country/Region=US | Round Tax=To Nearest",D-011
+319 Tax Area Line,ADD,Tax Area=NC-UNION | Tax Jurisdiction Code=NC | Calculation Order=1,State rate
+319 Tax Area Line,ADD,Tax Area=NC-UNION | Tax Jurisdiction Code=NCUNION | Calculation Order=2,County rate
+318 Tax Area,ADD,"Code=SC-YORK | Description=York County, SC | Country/Region=US | Round Tax=To Nearest",D-011
+319 Tax Area Line,ADD,Tax Area=SC-YORK | Tax Jurisdiction Code=SC | Calculation Order=1,State rate
+319 Tax Area Line,ADD,Tax Area=SC-YORK | Tax Jurisdiction Code=SCYORK | Calculation Order=2,County rate
+318 Tax Area,ADD,"Code=SC-LANCASTER | Description=Lancaster County, SC | Country/Region=US | Round Tax=To Nearest",D-011
+319 Tax Area Line,ADD,Tax Area=SC-LANCASTER | Tax Jurisdiction Code=SC | Calculation Order=1,State rate
+319 Tax Area Line,ADD,Tax Area=SC-LANCASTER | Tax Jurisdiction Code=SCLANCAST | Calculation Order=2,County rate
+322 Tax Detail,ADD,Tax Jurisdiction Code=NC | Tax Group Code=SUPPLIES | Tax Type=Sales and Use Tax | Maximum Amount/Qty.=0 | Tax Below Maximum=4.75 | Tax Above Maximum=0,NCDOR: state rate
+322 Tax Detail,ADD,Tax Jurisdiction Code=NCMECK | Tax Group Code=SUPPLIES | Tax Type=Sales and Use Tax | Maximum Amount/Qty.=0 | Tax Below Maximum=2.5 | Tax Above Maximum=0,NCDOR: Mecklenburg local rate before 7/1/2026 (2.00 county + 0.50 transit)
+322 Tax Detail,ADD,Tax Jurisdiction Code=NCMECK | Tax Group Code=SUPPLIES | Tax Type=Sales and Use Tax | Effective Date=2026-07-01 | Maximum Amount/Qty.=0 | Tax Below Maximum=3.5 | Tax Above Maximum=0,NCDOR notice: +1.00% additional county rate from 7/1/2026 (total 8.25%)
+322 Tax Detail,ADD,Tax Jurisdiction Code=NCCABARRUS | Tax Group Code=SUPPLIES | Tax Type=Sales and Use Tax | Maximum Amount/Qty.=0 | Tax Below Maximum=2.25 | Tax Above Maximum=0,NCDOR: total 7%
+322 Tax Detail,ADD,Tax Jurisdiction Code=NCGASTON | Tax Group Code=SUPPLIES | Tax Type=Sales and Use Tax | Maximum Amount/Qty.=0 | Tax Below Maximum=2.25 | Tax Above Maximum=0,NCDOR: total 7%
+322 Tax Detail,ADD,Tax Jurisdiction Code=NCUNION | Tax Group Code=SUPPLIES | Tax Type=Sales and Use Tax | Maximum Amount/Qty.=0 | Tax Below Maximum=2 | Tax Above Maximum=0,NCDOR: total 6.75%
+322 Tax Detail,ADD,Tax Jurisdiction Code=SC | Tax Group Code=SUPPLIES | Tax Type=Sales and Use Tax | Maximum Amount/Qty.=0 | Tax Below Maximum=6 | Tax Above Maximum=0,SC DOR: state rate
+322 Tax Detail,ADD,Tax Jurisdiction Code=SCYORK | Tax Group Code=SUPPLIES | Tax Type=Sales and Use Tax | Maximum Amount/Qty.=0 | Tax Below Maximum=1 | Tax Above Maximum=0,SC DOR ST-500 (eff. 7/1/2025): total 7%
+322 Tax Detail,ADD,Tax Jurisdiction Code=SCLANCAST | Tax Group Code=SUPPLIES | Tax Type=Sales and Use Tax | Maximum Amount/Qty.=0 | Tax Below Maximum=2 | Tax Above Maximum=0,SC DOR ST-500 (eff. 7/1/2025): total 8%
