@@ -60,3 +60,6 @@ Travel,Expenses,62340,Travel,Rename,Posting,G/L journal,YTD balance
 Meals,Expenses,63420,Meals,Rename,Posting,G/L journal,YTD balance
 Uncategorized Expense,Expenses,,,Not migrated,,Not loaded,Must be zero; the accountant classifies any balance before cutover
 Interest Expense,Other Expense,67200,Interest Expense,Rename,Posting,G/L journal,YTD balance
+(BC setup account),,40920,Invoice Rounding,Keep,Posting,Not loaded,"No QuickBooks equivalent; required by customer/vendor posting groups (rounding, payment discounts). Must not be blocked"
+(BC setup account),,67300,Payable Invoice Rounding,Keep,Posting,Not loaded,"No QuickBooks equivalent; required by customer/vendor posting groups (rounding, payment discounts). Must not be blocked"
+(BC setup account),,68290,Purchase Discounts,Keep,Posting,Not loaded,"No QuickBooks equivalent; required by customer/vendor posting groups (rounding, payment discounts). Must not be blocked"

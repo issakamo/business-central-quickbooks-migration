@@ -1,0 +1,41 @@
+Table,Change,Detail,Reason
+Location,ADD,Code=MAIN | Name=Charlotte Warehouse | Address=4810 Freight Way | City=Charlotte | State=NC | ZIP Code=28206 | Country/Region Code=US,The client has one warehouse (brief). Basic setup only: no warehouse documents at go-live
+250 Gen. Business Posting Group,ADD,Code=MIGRATION | Description=Opening balances only (do not use) | Auto Insert Default=true,D-006
+251 Gen. Product Posting Group,ADD,Code=CHEMICALS | Description=Cleaning chemicals | Auto Insert Default=true,D-007
+251 Gen. Product Posting Group,ADD,Code=PAPER | Description=Paper & can liners | Auto Insert Default=true,D-007
+251 Gen. Product Posting Group,ADD,Code=EQUIPMENT | Description=Equipment & tools | Auto Insert Default=true,D-007
+252 General Posting Setup,CHANGE,MISC: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,NO TAX: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,RAW MAT: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,RETAIL: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,SERVICES: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,ZERO: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,DOMESTIC/MISC: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,DOMESTIC/NO TAX: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,DOMESTIC/RAW MAT: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,DOMESTIC/RETAIL: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,DOMESTIC/SERVICES: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,DOMESTIC/ZERO: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,EU/MISC: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,EU/RETAIL: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,EXPORT/MISC: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,EXPORT/RETAIL: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,EXPORT/SERVICES: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,CHANGE,EXPORT/ZERO: Blocked false -> true,Template combination not used by the client
+252 General Posting Setup,ADD,"Gen. Bus. Posting Group=DOMESTIC | Gen. Prod. Posting Group=CHEMICALS | Sales Account=40140 | Sales Line Disc. Account=40910 | Sales Inv. Disc. Account=40910 | Purch. Account=14140 | Purch. Line Disc. Account=68290 | Purch. Inv. Disc. Account=68290 | COGS Account=50110 | Inventory Adjmt. Account=50140 | Sales Credit Memo Account=40140 | Purch. Credit Memo Account=14140 | Description=Domestic trade, chemicals | Direct Cost Applied Account=14140 | Overhead Applied Account=14140",Copied from template DOMESTIC/RETAIL; sales account per D-007; adjustments to 50140
+252 General Posting Setup,ADD,"Gen. Prod. Posting Group=CHEMICALS | COGS Account=50110 | Inventory Adjmt. Account=50140 | Description=Item journals, chemicals | Direct Cost Applied Account=14140 | Overhead Applied Account=14140","Copied from template (blank)/RETAIL; used by item journals (counts, adjustments)"
+252 General Posting Setup,ADD,"Gen. Bus. Posting Group=MIGRATION | Gen. Prod. Posting Group=CHEMICALS | Inventory Adjmt. Account=25900 | Description=Opening stock only, chemicals",D-006: opening stock credits the clearing account; sales/purchase accounts left empty on purpose
+252 General Posting Setup,ADD,"Gen. Bus. Posting Group=DOMESTIC | Gen. Prod. Posting Group=PAPER | Sales Account=40150 | Sales Line Disc. Account=40910 | Sales Inv. Disc. Account=40910 | Purch. Account=14140 | Purch. Line Disc. Account=68290 | Purch. Inv. Disc. Account=68290 | COGS Account=50110 | Inventory Adjmt. Account=50140 | Sales Credit Memo Account=40150 | Purch. Credit Memo Account=14140 | Description=Domestic trade, paper | Direct Cost Applied Account=14140 | Overhead Applied Account=14140",Copied from template DOMESTIC/RETAIL; sales account per D-007; adjustments to 50140
+252 General Posting Setup,ADD,"Gen. Prod. Posting Group=PAPER | COGS Account=50110 | Inventory Adjmt. Account=50140 | Description=Item journals, paper | Direct Cost Applied Account=14140 | Overhead Applied Account=14140","Copied from template (blank)/RETAIL; used by item journals (counts, adjustments)"
+252 General Posting Setup,ADD,"Gen. Bus. Posting Group=MIGRATION | Gen. Prod. Posting Group=PAPER | Inventory Adjmt. Account=25900 | Description=Opening stock only, paper",D-006: opening stock credits the clearing account; sales/purchase accounts left empty on purpose
+252 General Posting Setup,ADD,"Gen. Bus. Posting Group=DOMESTIC | Gen. Prod. Posting Group=EQUIPMENT | Sales Account=40160 | Sales Line Disc. Account=40910 | Sales Inv. Disc. Account=40910 | Purch. Account=14140 | Purch. Line Disc. Account=68290 | Purch. Inv. Disc. Account=68290 | COGS Account=50110 | Inventory Adjmt. Account=50140 | Sales Credit Memo Account=40160 | Purch. Credit Memo Account=14140 | Description=Domestic trade, equipment | Direct Cost Applied Account=14140 | Overhead Applied Account=14140",Copied from template DOMESTIC/RETAIL; sales account per D-007; adjustments to 50140
+252 General Posting Setup,ADD,"Gen. Prod. Posting Group=EQUIPMENT | COGS Account=50110 | Inventory Adjmt. Account=50140 | Description=Item journals, equipment | Direct Cost Applied Account=14140 | Overhead Applied Account=14140","Copied from template (blank)/RETAIL; used by item journals (counts, adjustments)"
+252 General Posting Setup,ADD,"Gen. Bus. Posting Group=MIGRATION | Gen. Prod. Posting Group=EQUIPMENT | Inventory Adjmt. Account=25900 | Description=Opening stock only, equipment",D-006: opening stock credits the clearing account; sales/purchase accounts left empty on purpose
+92 Customer Posting Group,CHANGE,DOMESTIC/15110: Payment Tolerance Debit Acc. 40330 -> 40910,"D-010: customer underpayments written off are a discount, not interest"
+93 Vendor Posting Group,CHANGE,DOMESTIC/22100: Payment Tolerance Debit Acc. 40330 -> 68290,"D-010: vendor tolerance is a purchase discount, not interest"
+92 Customer Posting Group,CHANGE,DOMESTIC/15110: Payment Tolerance Credit Acc. 40330 -> 40910,"D-010: customer underpayments written off are a discount, not interest"
+93 Vendor Posting Group,CHANGE,DOMESTIC/22100: Payment Tolerance Credit Acc. 40330 -> 68290,"D-010: vendor tolerance is a purchase discount, not interest"
+277 Bank Account Posting Group,CHANGE,SAVINGS/18220: G/L Account No. 18400 -> 18220,Savings G/L account from the account mapping
+277 Bank Account Posting Group,ADD,Code=PAYROLL | G/L Account No.=18210,Payroll Checking (account mapping)
+277 Bank Account Posting Group,ADD,Code=CREDITCARD | G/L Account No.=22510,D-009: credit card as a bank account
+5813 Inventory Posting Setup,ADD,"Location Code=MAIN | Invt. Posting Group Code=RESALE | Inventory Account=14140 | Description=Charlotte Warehouse, resale stock",Inventory account for stock at location MAIN (blank-location row already exists)
