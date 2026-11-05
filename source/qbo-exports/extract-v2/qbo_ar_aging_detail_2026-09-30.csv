@@ -1,0 +1,38 @@
+Date,Transaction Type,Num,Customer,Due Date,Amount,Open Balance,Aging
+2026-06-11,Invoice,4401,"Dilworth Dental Group, PLLC",2026-07-11,6410.45,6410.45,61 - 90
+2026-06-15,Invoice,4402,University City Labs,2026-07-15,8281.72,8281.72,61 - 90
+2026-06-16,Invoice,4403,York Technical Training Center,2026-07-16,8469.62,8469.62,61 - 90
+2026-06-17,Invoice,4404,NoDa Brewing Collective,2026-07-02,1223.38,1223.38,61 - 90
+2026-06-19,Invoice,4405,Carolina Office Partners,2026-07-19,7829.34,7829.34,61 - 90
+2026-06-21,Invoice,4406,Huntersville Ice Arena,2026-07-21,8548.57,8548.57,61 - 90
+2026-06-23,Invoice,4407,Freedom Drive Auto Spa,2026-06-23,8844.46,8844.46,91 and over
+2026-06-24,Invoice,4408,Cabarrus Family Medicine,2026-07-24,3056.04,3056.04,61 - 90
+2026-07-04,Invoice,4409,CleanPro Janitorial Services,2026-07-19,5223.72,5223.72,61 - 90
+2026-07-04,Invoice,4410,Dilworth Dental Group,2026-08-03,1348.89,1348.89,31 - 60
+2026-07-04,Invoice,4411,Steele Creek Distribution Center,2026-08-03,2629.72,2629.72,31 - 60
+2026-07-08,Invoice,4412,Belmont Abbey Facilities,2026-08-07,1444.43,1444.43,31 - 60
+2026-07-10,Invoice,4413,Lake Norman Event Center,2026-07-25,3125.30,3125.30,61 - 90
+2026-07-10,Invoice,4414,Lancaster Senior Living,2026-08-09,3779.54,1889.77,31 - 60
+2026-07-11,Invoice,4415,Crown Point Restaurant Group,2026-07-26,6627.84,6627.84,61 - 90
+2026-07-11,Invoice,4416,Monroe Manufacturing Supply,2026-08-10,4341.81,4341.81,31 - 60
+2026-07-19,Invoice,4417,Midtown Coworking Suites,2026-08-18,4543.32,4543.32,31 - 60
+2026-07-20,Invoice,4418,Piedmont Pediatrics,2026-08-19,5793.57,5793.57,31 - 60
+2026-07-25,Invoice,4419,Matthews Medical Arts Building,2026-08-24,4719.08,4719.08,31 - 60
+2026-07-29,Invoice,4420,Brightside Learning Academy,2026-08-28,4990.94,4990.94,31 - 60
+2026-07-29,Invoice,4421,Fort Mill Fitness Center,2026-07-29,2713.26,2713.26,61 - 90
+2026-07-29,Invoice,4422,Gaston Valley Hospital Services,2026-08-28,6285.68,6285.68,31 - 60
+2026-07-29,Invoice,4423,Riverwalk Hotel Rock Hill,2026-08-28,2651.16,1325.58,31 - 60
+2026-08-08,Invoice,4424,Plaza Midwood Bakery,2026-08-08,1853.61,1853.61,31 - 60
+2026-08-13,Invoice,4425,Uptown Tower Management,2026-09-12,8790.30,8790.30,1 - 30
+2026-08-18,Invoice,4426,Eastover Property Management,2026-09-17,3552.89,3552.89,1 - 30
+2026-08-19,Invoice,4427,Queens Road Animal Hospital,2026-09-18,7237.13,7237.13,1 - 30
+2026-08-20,Invoice,4428,Uptown Tower Management,2026-09-19,4144.93,4144.93,1 - 30
+2026-08-24,Invoice,4429,Steele Creek Distribution Center,2026-09-23,8112.04,8112.04,1 - 30
+2026-09-01,Invoice,4430,Concord Mills Dental,2026-10-01,1054.02,1054.02,Current
+2026-09-04,Invoice,4431,Kannapolis Logistics Hub,2026-10-04,7577.96,7577.96,Current
+2026-09-04,Invoice,4432,Zeta Data Center Services,2026-10-04,2753.64,2753.64,Current
+2026-09-09,Invoice,4433,Ballantyne Office Park Association,2026-10-09,7012.34,3506.17,Current
+2026-09-11,Invoice,4434,Gaston Valley Hospital Services,2026-10-11,6988.85,6988.85,Current
+2026-09-12,Invoice,4435,Dilworth Dental Group,2026-10-12,1186.40,1186.40,Current
+2026-09-18,Credit Memo,4436,Crown Point Restaurant Group,2026-10-03,-420.00,-420.00,Current
+2026-09-26,Invoice,4437,Carolina Office Partners,2026-10-26,7546.24,3773.12,Current

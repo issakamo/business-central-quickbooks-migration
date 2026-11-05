@@ -1,0 +1,61 @@
+Product/Service,SKU,Qty On Hand,Asset Value,Avg Cost
+"All-Purpose Cleaner, 1 gal (case of 4)",CH-1001,83,2347.49,28.2830
+"Glass Cleaner, 1 gal (case of 4)",CH-1002,77,1834.38,23.8231
+"Neutral Floor Cleaner, 1 gal (case of 4)",CH-1003,50,1610.37,32.2074
+"Heavy-Duty Degreaser, 1 gal (case of 4)",CH-1004,47,1772.78,37.7187
+"Disinfectant Cleaner, 1 gal (case of 4)",CH-1005,57,2393.24,41.9867
+"Bathroom Cleaner, 32 oz (case of 12)",CH-1006,109,3715.03,34.0828
+"Toilet Bowl Cleaner, 32 oz (case of 12)",CH-1007,88,2581.79,29.3385
+"Floor Finish, 5 gal pail",CH-1008,32,2848.21,89.0066
+"Floor Stripper, 5 gal pail",CH-1009,109,8450.14,77.5242
+"Carpet Extraction Cleaner, 1 gal (case of 4)",CH-1010,55,2497.40,45.4073
+"Hand Soap, foaming, 1000 ml (case of 6)",CH-1011,86,3171.50,36.8779
+"Hand Sanitizer, 1000 ml (case of 6)",CH-1012,55,2270.44,41.2807
+"Stainless Steel Polish, 17 oz (case of 12)",CH-1013,81,3714.82,45.8620
+"Odor Eliminator, 1 gal (case of 4)",CH-1014,75,2637.91,35.1721
+"Laundry Detergent, 5 gal pail",CH-1015,50,3170.76,63.4152
+"Dish Detergent, 1 gal (case of 4)",CH-1016,81,2276.97,28.1107
+"Oven & Grill Cleaner, 1 gal (case of 4)",CH-1017,21,817.69,38.9376
+"Quat Sanitizer, 1 gal (case of 4)",CH-1018,104,3772.01,36.2693
+"Eco All-Purpose Concentrate, 2 L (case of 4)",CH-1019,78,4034.11,51.7194
+"Graffiti Remover, 1 gal (case of 4)",CH-1020,65,3798.79,58.4429
+"Ice Melt, 50 lb bag",CH-1021,-4,-73.43,18.3575
+"Drain Maintenance Enzyme, 1 gal (case of 4)",CH-1022,45,2169.03,48.2007
+"Toilet Tissue, 2-ply (case of 96)",PP-2001,23,1131.09,49.1778
+"Jumbo Roll Tissue, 9 in (case of 12)",PP-2002,32,1284.37,40.1366
+"Multifold Towels, white (case of 4000)",PP-2003,59,1919.04,32.5261
+"C-Fold Towels, white (case of 2400)",PP-2004,26,802.23,30.8550
+"Hardwound Roll Towels, 800 ft (case of 6)",PP-2005,109,4435.12,40.6892
+Center-Pull Towels (case of 6),PP-2006,60,2261.54,37.6923
+"Facial Tissue, flat box (case of 30)",PP-2007,32,1089.78,34.0556
+Toilet Seat Covers (case of 5000),PP-2008,120,3611.16,30.0930
+Kitchen Roll Towels (case of 30),PP-2009,53,1925.00,36.3208
+Dispenser Napkins (case of 6000),PP-2010,60,2002.32,33.3720
+"Can Liners, 33 gal, clear (case of 250)",PP-2011,119,3286.13,27.6145
+"Can Liners, 45 gal, black (case of 250)",PP-2012,127,3999.00,31.4882
+"Can Liners, 56 gal, black (case of 200)",PP-2013,12,416.67,34.7225
+"Can Liners, 10 gal, clear (case of 1000)",PP-2014,99,2514.55,25.3995
+"Contractor Bags, 42 gal (case of 50)",PP-2015,44,1253.28,28.4836
+"Recycling Liners, 45 gal, blue (case of 250)",PP-2016,60,2013.40,33.5567
+"Compostable Liners, 13 gal (case of 200)",PP-2017,46,1833.12,39.8504
+Sanitary Napkin Disposal Bags (case of 500),PP-2018,139,3067.30,22.0669
+"Paper Hand Towel Rolls, kraft (case of 6)",PP-2019,123,4398.77,35.7624
+"Wiping Rags, white, 25 lb box",PP-2020,16,713.43,44.5894
+"Wet Mop Head, 24 oz",EQ-3001,70,469.78,6.7111
+Microfiber Flat Mop Kit,EQ-3002,116,4995.60,43.0655
+"Mop Bucket & Wringer, 35 qt",EQ-3003,21,1426.46,67.9267
+"Push Broom, 24 in",EQ-3004,90,1927.77,21.4197
+Upright Lobby Dust Pan,EQ-3005,126,1874.28,14.8752
+Microfiber Cloths (pack of 24),EQ-3006,93,1754.93,18.8702
+"Squeegee, window, 14 in",EQ-3007,42,397.65,9.4679
+"Extension Pole, 8 ft",EQ-3008,55,1348.08,24.5105
+Toilet Bowl Brush & Caddy,EQ-3009,68,487.60,7.1706
+Janitor Cart with Bag,EQ-3010,8,1497.54,187.1925
+Wet Floor Sign,,101,1181.20,11.6950
+"Backpack Vacuum, 10 qt",EQ-3012,22,7179.14,326.3245
+"Upright Vacuum, 14 in",EQ-3013,9,2232.86,248.0956
+"Auto Scrubber, 20 in",EQ-3014,4,12671.71,3167.9275
+"Floor Burnisher, 20 in",EQ-3015,4,5940.21,1485.0525
+"Paper Towel Dispenser, roll",EQ-3016,138,5352.16,38.7838
+"Soap Dispenser, foam",EQ-3017,77,1890.69,24.5544
+"Nitrile Gloves, L (case of 1000)",EQ-3018,100,6361.64,63.6164
