@@ -1,0 +1,23 @@
+Vendor,Company,Phone,Email,Street,City,State,ZIP,Terms,Track Payments for 1099,Tax ID,Category
+Atlantic Paper Converters,Atlantic Paper Converters,(704) 555-2000,ap@atlanticpaperconve.example,200 Park Rd,Greensboro,NC,28200,Net 30,No,,Paper
+Blue Ridge Chemical Supply,Blue Ridge Chemical Supply,(704) 555-2011,ap@blueridgechemicals.example,253 Main St,Hickory,NC,28201,Net 30,No,,Chemicals
+Carolina Can Liner Co.,Carolina Can Liner Co.,(704) 555-2022,ap@carolinacanlinerco.example,306 Industrial Blvd,Charlotte,NC,28202,Net 30,No,,Paper
+CleanTech Equipment Distributors,CleanTech Equipment Distributors,(404) 555-2033,ap@cleantechequipment.example,359 Market St,Atlanta,GA,30303,Net 60,No,,Equipment
+Freight Way Properties LLC,Freight Way Properties LLC,(704) 555-2044,ap@freightwayproperti.example,412 Church St,Charlotte,NC,28204,Due on receipt,No,,Rent
+GreenLeaf Eco Chemicals,GreenLeaf Eco Chemicals,(704) 555-2055,ap@greenleafecochemic.example,465 Providence Rd,Raleigh,NC,28205,2% 10 Net 30,No,,Chemicals
+Industrial Mop & Broom Works,Industrial Mop & Broom Works,(803) 555-2066,ap@industrialmopbroom.example,518 Center Pkwy,Spartanburg,SC,29306,Net 30,No,,Equipment
+Metro Fleet Fuel Services,Metro Fleet Fuel Services,(704) 555-2077,ap@metrofleetfuelserv.example,571 Gateway Blvd,Charlotte,NC,28207,Net 15,No,,Fuel
+Piedmont Power Co.,Piedmont Power Co.,(704) 555-2088,ap@piedmontpowerco.example,624 Lakeview Dr,Charlotte,NC,28208,Due on receipt,No,,Utilities
+Precision Floor Machines,Precision Floor Machines,(803) 555-2099,ap@precisionfloormach.example,677 Commerce Dr,Columbia,SC,29309,Net 60,No,,Equipment
+ProSan Disinfectants Inc.,ProSan Disinfectants Inc.,(704) 555-2110,ap@prosandisinfectant.example,730 Trade St,Charlotte,NC,28210,Net 30,No,,Chemicals
+Queen City Mutual Insurance,Queen City Mutual Insurance,(704) 555-2121,ap@queencitymutualins.example,783 Tryon St,Charlotte,NC,28211,Due on receipt,No,,Insurance
+Southern Tissue Mills,Southern Tissue Mills,(803) 555-2132,ap@southerntissuemill.example,836 Park Rd,Rock Hill,SC,29312,Net 30,No,,Paper
+Summit Safety Products,Summit Safety Products,(704) 555-2143,ap@summitsafetyproduc.example,889 Main St,Charlotte,NC,28213,Net 30,No,,Equipment
+TeleCarolina Communications,TeleCarolina Communications,(704) 555-2154,ap@telecarolinacommun.example,942 Industrial Blvd,Charlotte,NC,28214,Due on receipt,No,,Telephone
+Triad Truck & Van Repair,Triad Truck & Van Repair,(704) 555-2165,ap@triadtruckvanrepai.example,995 Market St,Gastonia,NC,28215,Net 15,No,,Vehicle repairs
+Uptown Office Supply,Uptown Office Supply,(704) 555-2176,ap@uptownofficesupply.example,1048 Church St,Charlotte,NC,28216,Net 30,No,,Office supplies
+Wilkes & Partners CPA,Wilkes & Partners CPA,(704) 555-2187,ap@wilkespartnerscpa.example,1101 Providence Rd,Charlotte,NC,28217,Net 15,No,,Accounting
+Andre Coleman,Andre Coleman,(704) 555-2198,ap@andrecoleman.example,1154 Center Pkwy,Charlotte,NC,28218,Net 15,Yes,XX-XXX1018,Delivery contractor
+Danielle Ruiz,Danielle Ruiz,(704) 555-2209,ap@danielleruiz.example,1207 Gateway Blvd,Concord,NC,28219,Net 15,Yes,XX-XXX1019,Delivery contractor
+Marcus Bell Equipment Repair,Marcus Bell Equipment Repair,(704) 555-2220,ap@marcusbellequipmen.example,1260 Lakeview Dr,Matthews,NC,28220,Net 15,Yes,XX-XXX1020,Repair contractor
+Tomas Nguyen,Tomas Nguyen,(803) 555-2231,ap@tomasnguyen.example,1313 Commerce Dr,Fort Mill,SC,29321,Net 15,Yes,XX-XXX1021,Delivery contractor

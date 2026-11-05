@@ -1,0 +1,43 @@
+Customer,Company,Phone,Email,Billing Street,Billing City,Billing State,Billing ZIP,Shipping Street,Shipping City,Shipping State,Shipping ZIP,Terms,Tax Exempt,Exemption Reason,Exemption Certificate No.,Status
+Ballantyne Office Park Association,Ballantyne Office Park Association,(704) 555-1000,ap@ballantyneofficepa.example,100 Commerce Dr,Charlotte,NC,28203,100 Commerce Dr,Charlotte,NC,28203,Net 30,No,,,Active
+Belmont Abbey Facilities,Belmont Abbey Facilities,(704) 555-1007,ap@belmontabbeyfacili.example,137 Trade St,Belmont,NC,28012,137 Trade St,Belmont,NC,28012,Net 30,No,,,Active
+Brightside Learning Academy,Brightside Learning Academy,(704) 555-1014,ap@brightsidelearning.example,174 Tryon St,Matthews,NC,28105,174 Tryon St,Matthews,NC,28105,Net 30,No,,,Active
+Cabarrus Family Medicine,Cabarrus Family Medicine,(704) 555-1021,ap@cabarrusfamilymedi.example,211 Park Rd,Concord,NC,28025,211 Park Rd,Concord,NC,28025,Net 30,No,,,Active
+Carolina Office Partners,Carolina Office Partners,(704) 555-1028,ap@carolinaofficepart.example,248 Main St,Charlotte,NC,28203,248 Main St,Charlotte,NC,28203,2% 10 Net 30,No,,,Active
+Catawba Ridge Apartments,Catawba Ridge Apartments,(803) 555-1035,ap@catawbaridgeapartm.example,285 Industrial Blvd,Rock Hill,SC,29730,285 Industrial Blvd,Rock Hill,SC,29730,Net 30,No,,,Active
+CleanPro Janitorial Services,CleanPro Janitorial Services,(704) 555-1042,ap@cleanprojanitorial.example,322 Market St,Charlotte,NC,28203,322 Market St,Charlotte,NC,28203,Net 15,Yes,Resale,QCS-EX-007,Active
+Concord Mills Dental,Concord Mills Dental,(704) 555-1049,ap@concordmillsdental.example,359 Church St,Concord,NC,28025,359 Church St,Concord,NC,28025,Net 30,No,,,Active
+Crown Point Restaurant Group,Crown Point Restaurant Group,(704) 555-1056,ap@crownpointrestaura.example,396 Providence Rd,Charlotte,NC,28203,396 Providence Rd,Charlotte,NC,28203,Net 15,No,,,Active
+Dilworth Dental Group,Dilworth Dental Group,(704) 555-1063,ap@dilworthdentalgrou.example,433 Center Pkwy,Charlotte,NC,28203,433 Center Pkwy,Charlotte,NC,28203,Net 30,No,,,Active
+"Dilworth Dental Group, PLLC","Dilworth Dental Group, PLLC",(704) 555-1070,ap@dilworthdentalgrou.example,470 Gateway Blvd,Charlotte,NC,28203,470 Gateway Blvd,Charlotte,NC,28203,Net 30,No,,,Active
+Eastover Property Management,Eastover Property Management,(704) 555-1077,ap@eastoverpropertyma.example,507 Lakeview Dr,Charlotte,NC,28203,507 Lakeview Dr,Charlotte,NC,28203,2% 10 Net 30,No,,,Active
+Fort Mill Fitness Center,Fort Mill Fitness Center,(803) 555-1084,ap@fortmillfitnesscen.example,544 Commerce Dr,Fort Mill,SC,29715,544 Commerce Dr,Fort Mill,SC,29715,Due on receipt,No,,,Active
+Freedom Drive Auto Spa,Freedom Drive Auto Spa,(704) 555-1091,ap@freedomdriveautosp.example,581 Trade St,Charlotte,NC,28203,581 Trade St,Charlotte,NC,28203,Due on receipt,No,,,Active
+Gaston Valley Hospital Services,Gaston Valley Hospital Services,(704) 555-1098,ap@gastonvalleyhospit.example,618 Tryon St,Gastonia,NC,28052,618 Tryon St,Gastonia,NC,28052,Net 30,No,,,Active
+Gastonia Grill & Taproom,Gastonia Grill & Taproom,(704) 555-1105,ap@gastoniagrilltapro.example,655 Park Rd,Gastonia,NC,28052,655 Park Rd,Gastonia,NC,28052,Net 15,No,,,Active
+Harrisburg Hardware Co.,Harrisburg Hardware Co.,(704) 555-1112,ap@harrisburghardware.example,692 Main St,Concord,NC,28025,692 Main St,Concord,NC,28025,Net 30,No,,,Inactive
+Huntersville Ice Arena,Huntersville Ice Arena,(704) 555-1119,ap@huntersvilleiceare.example,729 Industrial Blvd,Huntersville,NC,28078,729 Industrial Blvd,Huntersville,NC,28078,Net 30,No,,,Active
+Indian Land Medical Plaza,Indian Land Medical Plaza,(803) 555-1126,ap@indianlandmedicalp.example,766 Market St,Indian Land,SC,29707,766 Market St,Indian Land,SC,29707,Net 30,No,,,Active
+Indian Trail Elementary PTA,Indian Trail Elementary PTA,(704) 555-1133,ap@indiantrailelement.example,803 Church St,Indian Trail,NC,28079,803 Church St,Indian Trail,NC,28079,Due on receipt,No,,,Active
+Kannapolis Logistics Hub,Kannapolis Logistics Hub,(704) 555-1140,ap@kannapolislogistic.example,840 Providence Rd,Kannapolis,NC,28081,840 Providence Rd,Kannapolis,NC,28081,Net 30,No,,,Active
+Lake Norman Event Center,Lake Norman Event Center,(704) 555-1147,ap@lakenormaneventcen.example,877 Center Pkwy,Huntersville,NC,28078,877 Center Pkwy,Huntersville,NC,28078,Net 15,No,,,Active
+Lancaster Senior Living,Lancaster Senior Living,(803) 555-1154,ap@lancasterseniorliv.example,914 Gateway Blvd,Lancaster,SC,29720,914 Gateway Blvd,Lancaster,SC,29720,Net 30,No,,,Active
+Matthews Medical Arts Building,Matthews Medical Arts Building,(704) 555-1161,ap@matthewsmedicalart.example,951 Lakeview Dr,Matthews,NC,,951 Lakeview Dr,Matthews,NC,,Net 30,No,,,Active
+Midtown Coworking Suites,Midtown Coworking Suites,(704) 555-1168,ap@midtowncoworkingsu.example,988 Commerce Dr,Charlotte,NC,28203,988 Commerce Dr,Charlotte,NC,28203,2% 10 Net 30,No,,,Active
+Monroe Manufacturing Supply,Monroe Manufacturing Supply,(704) 555-1175,ap@monroemanufacturin.example,1025 Trade St,Monroe,NC,28110,1025 Trade St,Monroe,NC,28110,Net 30,Yes,Resale,QCS-EX-026,Active
+NoDa Brewing Collective,NoDa Brewing Collective,(704) 555-1182,ap@nodabrewingcollect.example,1062 Tryon St,Charlotte,NC,28203,1062 Tryon St,Charlotte,NC,28203,Net 15,No,,,Active
+Piedmont Pediatrics,Piedmont Pediatrics,(704) 555-1189,ap@piedmontpediatrics.example,1099 Park Rd,Charlotte,NC,28203,1099 Park Rd,Charlotte,NC,28203,Net 30,No,,,Active
+Plaza Midwood Bakery,Plaza Midwood Bakery,(704) 555-1196,ap@plazamidwoodbakery.example,1136 Main St,Charlotte,NC,28203,1136 Main St,Charlotte,NC,28203,Due on receipt,No,,,Active
+Queens Road Animal Hospital,Queens Road Animal Hospital,(704) 555-1203,ap@queensroadanimalho.example,1173 Industrial Blvd,Charlotte,NC,28203,1173 Industrial Blvd,Charlotte,NC,28203,Net 30,No,,,Active
+Riverwalk Hotel Rock Hill,Riverwalk Hotel Rock Hill,(803) 555-1210,ap@riverwalkhotelrock.example,1210 Market St,Rock Hill,SC,29730,1210 Market St,Rock Hill,SC,29730,Net 30,No,,,Active
+Sharon Square Shopping Center,Sharon Square Shopping Center,(704) 555-1217,ap@sharonsquareshoppi.example,1247 Church St,Charlotte,NC,28203,1247 Church St,Charlotte,NC,28203,2% 10 Net 30,No,,,Active
+SouthPark Law Offices,SouthPark Law Offices,(704) 555-1224,ap@southparklawoffice.example,1284 Providence Rd,Charlotte,NC,28203,1284 Providence Rd,Charlotte,NC,28203,Net 30,No,,,Active
+Sparkle Commercial Cleaning,Sparkle Commercial Cleaning,(803) 555-1231,ap@sparklecommercialc.example,1321 Center Pkwy,Rock Hill,SC,29730,1321 Center Pkwy,Rock Hill,SC,29730,Net 15,Yes,Resale,QCS-EX-034,Active
+Steele Creek Distribution Center,Steele Creek Distribution Center,(704) 555-1238,ap@steelecreekdistrib.example,1358 Gateway Blvd,Charlotte,NC,28203,1358 Gateway Blvd,Charlotte,NC,28203,Net 30,No,,,Active
+Union County Racquet Club,Union County Racquet Club,(704) 555-1245,ap@unioncountyracquet.example,1395 Lakeview Dr,Monroe,NC,28110,1395 Lakeview Dr,Monroe,NC,28110,Net 30,No,,,Active
+University City Labs,University City Labs,(704) 555-1252,ap@universitycitylabs.example,1432 Commerce Dr,Charlotte,NC,28203,1432 Commerce Dr,Charlotte,NC,28203,Net 30,No,,,Active
+Uptown Tower Management,Uptown Tower Management,(704) 555-1259,ap@uptowntowermanagem.example,1469 Trade St,Charlotte,NC,28203,1469 Trade St,Charlotte,NC,28203,2% 10 Net 30,No,,,Active
+Waxhaw Veterinary Clinic,Waxhaw Veterinary Clinic,(704) 555-1266,ap@waxhawveterinarycl.example,1506 Tryon St,Wingate,NC,28173,1506 Tryon St,Wingate,NC,28173,Net 30,No,,,Active
+Wesley Heights Daycare,Wesley Heights Daycare,(704) 555-1273,ap@wesleyheightsdayca.example,1543 Park Rd,Charlotte,NC,28203,1543 Park Rd,Charlotte,NC,28203,Due on receipt,No,,,Active
+York Technical Training Center,York Technical Training Center,(803) 555-1280,ap@yorktechnicaltrain.example,1580 Main St,Rock Hill,SC,29730,1580 Main St,Rock Hill,SC,29730,Net 30,No,,,Active
+Zeta Data Center Services,Zeta Data Center Services,(704) 555-1287,ap@zetadatacenterserv.example,1617 Industrial Blvd,Charlotte,NC,28203,1617 Industrial Blvd,Charlotte,NC,28203,Net 30,No,,,Active

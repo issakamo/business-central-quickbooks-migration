@@ -1,0 +1,5 @@
+QBO Customer,Field,Corrected Value,Issue,Approved
+Dilworth Dental Group,Merge Into,"Dilworth Dental Group, PLLC",I-002,Client confirmed one legal entity
+Harrisburg Hardware Co.,Exclude,Yes,I-003,Inactive since 2024; no balance (verify against A/R aging)
+Matthews Medical Arts Building,Shipping ZIP,28105,I-004,Client provided full address (Mecklenburg County)
+Waxhaw Veterinary Clinic,Shipping ZIP,28174,I-005,"Client confirmed Wingate, NC 28174 (Union County)"
