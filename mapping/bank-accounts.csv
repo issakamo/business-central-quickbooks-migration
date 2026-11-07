@@ -1,0 +1,5 @@
+QBO Account,BC Bank Account No.,Name,Bank Acc. Posting Group,G/L Account
+Operating Checking,OPERATING,Operating Checking,OPERATING,18200 Operating Checking
+Payroll Checking,PAYROLL,Payroll Checking,PAYROLL,18210 Payroll Checking
+Savings,SAVINGS,Savings,SAVINGS,18220 Savings
+Company Credit Card,CREDITCARD,Company Credit Card,CREDITCARD,22510 Company Credit Card
