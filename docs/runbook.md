@@ -27,7 +27,10 @@ Steps run in order for every trial run and for the production cutover.
 | 2.5 | Apply QCS-13-OPEN-GL (tools/transform_open_gl.py, extract v2); Preview Posting; post batch OB-GL | RapidStart + journal | 47 lines; only G/L entries, no tax; 25900 Opening Balance Clearing = 0.00 (trial run 1: -0.09, I-018) |
 | 2.5 | ... | ... | 47 lines; only G/L entries, no tax; Gen. Posting Type empty on all lines; 25900 Opening Balance Clearing = -0.09 (I-018; 0.00 expected in trial run 2) |
 | 2.6 | Final reconciliation: BC Chart of Accounts balances vs QuickBooks trial balance per BC account (tools/reconcile_trial_balance.py) | Script | Every account matches; trial run 1 exceptions: 14140 +0.09, 25900 -0.09 (I-018) |
-
+| 2.7 | Day-one tests (work date 11/10/2026, I-019): sales invoices to C00010 (NC-MECK), C00060 (SC-YORK), C00070 (exempt) with CH-1001 x2, PP-2001 x1, DELIVERY x1 | Manual | Tax 13.42 / 11.39 / 0.00; totals 176.11 / 174.08 / 162.69; tax to 23100 and 23110; delivery to 40390; CH-1001 inventory 77 |
+| 2.8 | Apply QCS-14-BLOCK-ACCOUNTS (tools/block_accounts.py, D-022) | RapidStart | 176 modified, 0 inserted; client accounts and 40920 not blocked |
+| 2.9 | Day-one process tests after blocking: purchase order (receive + invoice), sales order (ship + invoice), payment applied to an opening invoice | Manual | No "blocked" errors |
+| 2.10 | After reconciliation sign-off: block 25900 Opening Balance Clearing and the MIGRATION General Posting Setup rows | Manual | Migration-only setup can no longer be used |
 
 After posting each opening batch, delete the empty line BC leaves in it
 

@@ -1,0 +1,177 @@
+BC Account,Name,Reason
+11100,Development Expenditure,Zero balance; not used by the client; not in any loaded setup
+11200,"Tenancy, Site Leasehold and similar rights",Zero balance; not used by the client; not in any loaded setup
+11300,Goodwill,Zero balance; not used by the client; not in any loaded setup
+11400,Advanced Payments for Intangible Fixed Assets,Zero balance; not used by the client; not in any loaded setup
+12110,Building,Zero balance; not used by the client; not in any loaded setup
+12120,Cost of Improvements to Leased Property,Zero balance; not used by the client; not in any loaded setup
+12130,Land,Zero balance; not used by the client; not in any loaded setup
+12220,Computers,Zero balance; not used by the client; not in any loaded setup
+12240,Leased Assets,Zero balance; not used by the client; not in any loaded setup
+13100,Long-term Receivables,Zero balance; not used by the client; not in any loaded setup
+13200,Participation in Group Companies,Zero balance; not used by the client; not in any loaded setup
+13300,Loans to Partners or related Parties,Zero balance; not used by the client; not in any loaded setup
+13400,Deferred Tax Assets,Zero balance; not used by the client; not in any loaded setup
+14100,Supplies and Consumables,Zero balance; not used by the client; not in any loaded setup
+14110,Raw Materials,Zero balance; not used by the client; not in any loaded setup
+14120,Products in Progress,Zero balance; not used by the client; not in any loaded setup
+14130,Finished Goods,Zero balance; not used by the client; not in any loaded setup
+14160,Advanced Payments for goods and services,Zero balance; not used by the client; not in any loaded setup
+14170,Other Inventory Items,Zero balance; not used by the client; not in any loaded setup
+14210,"Work in Progress, Finished Goods",Zero balance; not used by the client; not in any loaded setup
+14220,WIP Job Sales,Zero balance; not used by the client; not in any loaded setup
+14230,WIP Job Costs,Zero balance; not used by the client; not in any loaded setup
+14240,"WIP, Accrued Costs",Zero balance; not used by the client; not in any loaded setup
+14250,"WIP, Invoiced Sales",Zero balance; not used by the client; not in any loaded setup
+15120,"Account Receivable, Foreign",Zero balance; not used by the client; not in any loaded setup
+15130,Contractual Receivables,Zero balance; not used by the client; not in any loaded setup
+15140,Consignment Receivables,Zero balance; not used by the client; not in any loaded setup
+15150,Credit cards and Vouchers Receivables,Zero balance; not used by the client; not in any loaded setup
+15920,Accrued income not yet invoiced,Zero balance; not used by the client; not in any loaded setup
+15930,Clearing Accounts for Taxes and charges,Zero balance; not used by the client; not in any loaded setup
+15940,Tax Assets,Zero balance; not used by the client; not in any loaded setup
+15950,Current Receivables from group companies,Zero balance; not used by the client; not in any loaded setup
+16100,Prepaid Rent,Zero balance; not used by the client; not in any loaded setup
+16200,Prepaid Interest expense,Zero balance; not used by the client; not in any loaded setup
+16300,Accrued Rental Income,Zero balance; not used by the client; not in any loaded setup
+16400,Accrued Interest Income,Zero balance; not used by the client; not in any loaded setup
+16500,Assets in the form of prepaid expenses,Zero balance; not used by the client; not in any loaded setup
+17100,Bonds,Zero balance; not used by the client; not in any loaded setup
+17200,Convertible debt instruments,Zero balance; not used by the client; not in any loaded setup
+17300,Other short-term Investments,Zero balance; not used by the client; not in any loaded setup
+17400,Write-down of Short-term investments,Zero balance; not used by the client; not in any loaded setup
+18300,"Business account, Operating, Foreign",Zero balance; not used by the client; not in any loaded setup
+18400,Other bank accounts,Zero balance; not used by the client; not in any loaded setup
+18500,Certificate of Deposit,Zero balance; not used by the client; not in any loaded setup
+21100,Bonds and Debenture Loans,Zero balance; not used by the client; not in any loaded setup
+21200,Convertibles Loans,Zero balance; not used by the client; not in any loaded setup
+21400,Bank overdraft Facilities,Zero balance; not used by the client; not in any loaded setup
+22200,"Accounts Payable, Foreign",Zero balance; not used by the client; not in any loaded setup
+22400,Change in Work in Progress,Zero balance; not used by the client; not in any loaded setup
+22500,Bank overdraft short-term,Zero balance; not used by the client; not in any loaded setup
+22600,Other Liabilities,Zero balance; not used by the client; not in any loaded setup
+23200,Taxes Liable,Zero balance; not used by the client; not in any loaded setup
+23300,Estimated Income Tax,Zero balance; not used by the client; not in any loaded setup
+23500,Estimated Payroll tax on Pension Costs,Zero balance; not used by the client; not in any loaded setup
+24200,Statutory Social security Contributions,Zero balance; not used by the client; not in any loaded setup
+24300,Contractual Social security Contributions,Zero balance; not used by the client; not in any loaded setup
+24400,Attachments of Earning,Zero balance; not used by the client; not in any loaded setup
+24500,Holiday Pay fund,Zero balance; not used by the client; not in any loaded setup
+24600,Other Salary/wage Deductions,Zero balance; not used by the client; not in any loaded setup
+25100,"Clearing Account for Factoring, Current Portion",Zero balance; not used by the client; not in any loaded setup
+25200,Current Liabilities to Employees,Zero balance; not used by the client; not in any loaded setup
+25300,Clearing Account for third party,Zero balance; not used by the client; not in any loaded setup
+25400,Current Loans,Zero balance; not used by the client; not in any loaded setup
+25500,"Liabilities, Grants Received",Zero balance; not used by the client; not in any loaded setup
+26100,Accrued wages/salaries,Zero balance; not used by the client; not in any loaded setup
+26200,Accrued Holiday pay,Zero balance; not used by the client; not in any loaded setup
+26300,Accrued Pension costs,Zero balance; not used by the client; not in any loaded setup
+26400,Accrued Interest Expense,Zero balance; not used by the client; not in any loaded setup
+26500,Deferred Income,Zero balance; not used by the client; not in any loaded setup
+26600,Accrued Contractual costs,Zero balance; not used by the client; not in any loaded setup
+30100,Equity Partner,Zero balance; not used by the client; not in any loaded setup
+30110,Net Results,Zero balance; not used by the client; not in any loaded setup
+30111,Restricted Equity,Zero balance; not used by the client; not in any loaded setup
+30210,Non-Restricted Equity,Zero balance; not used by the client; not in any loaded setup
+30310,Results for the Financial year,Zero balance; not used by the client; not in any loaded setup
+40110,Sale of Raw Materials,Zero balance; not used by the client; not in any loaded setup
+40130,Sale of Finished Goods,Zero balance; not used by the client; not in any loaded setup
+40210,Sale of Resources,Zero balance; not used by the client; not in any loaded setup
+40220,Sale of Subcontracting,Zero balance; not used by the client; not in any loaded setup
+40310,Income from securities,Zero balance; not used by the client; not in any loaded setup
+40320,Management Fee Revenue,Zero balance; not used by the client; not in any loaded setup
+40380,Currency Gains,Zero balance; not used by the client; not in any loaded setup
+40410,Job Sales,Zero balance; not used by the client; not in any loaded setup
+40420,Job Sales Applied,Zero balance; not used by the client; not in any loaded setup
+40430,Sales of Service Contracts,Zero balance; not used by the client; not in any loaded setup
+40440,Sales of Service Work,Zero balance; not used by the client; not in any loaded setup
+40930,Payment Tolerance,Zero balance; not used by the client; not in any loaded setup
+40940,Sales Returns,Zero balance; not used by the client; not in any loaded setup
+50120,"Cost of Materials, Projects",Zero balance; not used by the client; not in any loaded setup
+50210,Cost of Labor,Zero balance; not used by the client; not in any loaded setup
+50220,"Cost of Labor, Projects",Zero balance; not used by the client; not in any loaded setup
+50230,"Cost of Labor, Warranty/Contract",Zero balance; not used by the client; not in any loaded setup
+50400,Subcontracted work,Zero balance; not used by the client; not in any loaded setup
+50410,"Purchase Variance, Retail",Zero balance; not used by the client; not in any loaded setup
+50500,Cost of Variances,Zero balance; not used by the client; not in any loaded setup
+60130,Heating for Rental,Zero balance; not used by the client; not in any loaded setup
+60140,Water and Sewerage for Rental,Zero balance; not used by the client; not in any loaded setup
+60150,Cleaning and Waste for Rental,Zero balance; not used by the client; not in any loaded setup
+60170,"Insurances, Rental",Zero balance; not used by the client; not in any loaded setup
+60190,Other Rental Expenses,Zero balance; not used by the client; not in any loaded setup
+60210,Site Fees / Leases,Zero balance; not used by the client; not in any loaded setup
+60220,Electricity for Property,Zero balance; not used by the client; not in any loaded setup
+60230,Heating for Property,Zero balance; not used by the client; not in any loaded setup
+60240,Water and Sewerage for Property,Zero balance; not used by the client; not in any loaded setup
+60250,Cleaning and Waste for Property,Zero balance; not used by the client; not in any loaded setup
+60260,Repairs and Maintenance for Property,Zero balance; not used by the client; not in any loaded setup
+60270,"Insurances, Property",Zero balance; not used by the client; not in any loaded setup
+60290,Other Property Expenses,Zero balance; not used by the client; not in any loaded setup
+61100,Hire of machinery,Zero balance; not used by the client; not in any loaded setup
+61200,Hire of computers,Zero balance; not used by the client; not in any loaded setup
+61300,Hire of other fixed assets,Zero balance; not used by the client; not in any loaded setup
+62110,Passenger Car Costs,Zero balance; not used by the client; not in any loaded setup
+62210,Freight fees for goods,Zero balance; not used by the client; not in any loaded setup
+62220,Customs and forwarding,Zero balance; not used by the client; not in any loaded setup
+62230,"Freight fees, projects",Zero balance; not used by the client; not in any loaded setup
+62310,Tickets,Zero balance; not used by the client; not in any loaded setup
+62320,Rental vehicles,Zero balance; not used by the client; not in any loaded setup
+62330,Board and lodging,Zero balance; not used by the client; not in any loaded setup
+63110,Advertisement Development,Zero balance; not used by the client; not in any loaded setup
+63120,Outdoor and Transportation Ads,Zero balance; not used by the client; not in any loaded setup
+63130,Ad matter and direct mailings,Zero balance; not used by the client; not in any loaded setup
+63140,Conference/Exhibition Sponsorship,Zero balance; not used by the client; not in any loaded setup
+63150,"Samples, contests, gifts",Zero balance; not used by the client; not in any loaded setup
+63160,"Film, TV, radio, internet ads",Zero balance; not used by the client; not in any loaded setup
+63170,PR and Agency Fees,Zero balance; not used by the client; not in any loaded setup
+63210,"Catalogs, price lists",Zero balance; not used by the client; not in any loaded setup
+63220,Trade Publications,Zero balance; not used by the client; not in any loaded setup
+63430,"Business Entertaining, nondeductible",Zero balance; not used by the client; not in any loaded setup
+64300,Data services,Zero balance; not used by the client; not in any loaded setup
+64400,Postal fees,Zero balance; not used by the client; not in any loaded setup
+64500,Consumable/Expensible hardware,Zero balance; not used by the client; not in any loaded setup
+65200,Damages Paid,Zero balance; not used by the client; not in any loaded setup
+65300,Bad Debt Losses,Zero balance; not used by the client; not in any loaded setup
+65400,Security services,Zero balance; not used by the client; not in any loaded setup
+65900,Other risk expenses,Zero balance; not used by the client; not in any loaded setup
+66110,Remuneration to Directors,Zero balance; not used by the client; not in any loaded setup
+66120,Management Fees,Zero balance; not used by the client; not in any loaded setup
+66130,Annual/interrim Reports,Zero balance; not used by the client; not in any loaded setup
+66140,Annual/general meeting,Zero balance; not used by the client; not in any loaded setup
+66150,Audit and Audit Services,Zero balance; not used by the client; not in any loaded setup
+66160,Tax advisory Services,Zero balance; not used by the client; not in any loaded setup
+68110,Accounting Services,Zero balance; not used by the client; not in any loaded setup
+68120,IT Services,Zero balance; not used by the client; not in any loaded setup
+68130,Media Services,Zero balance; not used by the client; not in any loaded setup
+68140,Consulting Services,Zero balance; not used by the client; not in any loaded setup
+68210,License Fees/Royalties,Zero balance; not used by the client; not in any loaded setup
+68220,Trademarks/Patents,Zero balance; not used by the client; not in any loaded setup
+68230,Association Fees,Zero balance; not used by the client; not in any loaded setup
+68280,Misc. external expenses,Zero balance; not used by the client; not in any loaded setup
+71110,Hourly Wages,Zero balance; not used by the client; not in any loaded setup
+71120,Overtime Wages,Zero balance; not used by the client; not in any loaded setup
+71130,Bonuses,Zero balance; not used by the client; not in any loaded setup
+71140,Commissions Paid,Zero balance; not used by the client; not in any loaded setup
+71150,PTO Accrued,Zero balance; not used by the client; not in any loaded setup
+72110,Training Costs,Zero balance; not used by the client; not in any loaded setup
+72120,Health Care Contributions,Zero balance; not used by the client; not in any loaded setup
+72130,Entertainment of personnel,Zero balance; not used by the client; not in any loaded setup
+72140,Allowances,Zero balance; not used by the client; not in any loaded setup
+72150,Mandatory clothing expenses,Zero balance; not used by the client; not in any loaded setup
+72160,Other cash/remuneration benefits,Zero balance; not used by the client; not in any loaded setup
+72210,Pension fees and recurring costs,Zero balance; not used by the client; not in any loaded setup
+72220,Employer Contributions,Zero balance; not used by the client; not in any loaded setup
+73100,Health Insurance,Zero balance; not used by the client; not in any loaded setup
+73200,Dental Insurance,Zero balance; not used by the client; not in any loaded setup
+73300,Worker's Compensation,Zero balance; not used by the client; not in any loaded setup
+73400,Life Insurance,Zero balance; not used by the client; not in any loaded setup
+74110,Federal Withholding Expense,Zero balance; not used by the client; not in any loaded setup
+74120,FICA Expense,Zero balance; not used by the client; not in any loaded setup
+74130,FUTA Expense,Zero balance; not used by the client; not in any loaded setup
+74140,Medicare Expense,Zero balance; not used by the client; not in any loaded setup
+74190,Other Federal Expense,Zero balance; not used by the client; not in any loaded setup
+74410,State Withholding Expense,Zero balance; not used by the client; not in any loaded setup
+74420,SUTA Expense,Zero balance; not used by the client; not in any loaded setup
+81000,"Depreciation, Land and Property",Zero balance; not used by the client; not in any loaded setup
+82000,"Depreciation, Fixed Assets",Zero balance; not used by the client; not in any loaded setup
+91000,Currency Losses,Zero balance; not used by the client; not in any loaded setup
