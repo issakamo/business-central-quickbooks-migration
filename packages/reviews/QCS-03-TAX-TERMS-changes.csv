@@ -1,7 +1,6 @@
 Table,Change,Detail,Reason / source
 Payment Terms,ADD,Code=RECEIPT | Due Date Calculation=0D | Discount %=0 | Description=Due on receipt,"D-012: QuickBooks ""Due on receipt"""
 Payment Terms,ADD,"Code=2%10NET30 | Due Date Calculation=30D | Discount Date Calculation=10D | Discount %=2 | Description=2% 10, Net 30","D-012: QuickBooks ""2% 10 Net 30"""
-321 Tax Group,CHANGE,SUPPLIES: Description Taxable Olympic Supplies -> Taxable supplies,"Template description refers to CRONUS (""Olympic"")"
 320 Tax Jurisdiction,ADD,Code=NC | Description=North Carolina state | Tax Account (Sales)=23100 | Report-to Jurisdiction=NC | Name=North Carolina state | Country/Region=US | Print Order=1 | Print Description=NC state tax,D-011
 320 Tax Jurisdiction,ADD,"Code=NCMECK | Description=Mecklenburg County, NC | Tax Account (Sales)=23100 | Report-to Jurisdiction=NC | Name=Mecklenburg County, NC | Country/Region=US | Print Order=2 | Print Description=Mecklenburg County tax",D-011
 320 Tax Jurisdiction,ADD,"Code=NCCABARRUS | Description=Cabarrus County, NC | Tax Account (Sales)=23100 | Report-to Jurisdiction=NC | Name=Cabarrus County, NC | Country/Region=US | Print Order=2 | Print Description=Cabarrus County tax",D-011
