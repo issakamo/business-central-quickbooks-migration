@@ -1,0 +1,55 @@
+BC Account,BC Name,QuickBooks source account(s),QuickBooks 9/30/2026,BC 9/30/2026,Difference,Status
+12210,Warehouse Equipment,Warehouse Equipment,64500.00,64500.00,0.00,OK
+12230,Delivery Vehicles,Delivery Vehicles,112000.00,112000.00,0.00,OK
+12250,Office Furniture & Equipment,Office Furniture & Equipment,18200.00,18200.00,0.00,OK
+12900,Accumulated Depreciation,Accumulated Depreciation,-61850.00,-61850.00,0.00,OK
+13500,Security Deposits,Security Deposits,7500.00,7500.00,0.00,OK
+14140,Inventory Asset,Inventory Asset,164831.46,164831.46,0.00,OK
+15110,Accounts Receivable,Accounts Receivable (A/R),169777.55,169777.55,0.00,OK
+15910,Employee Advances,Employee Advances,500.00,500.00,0.00,OK
+16600,Prepaid Expenses,Prepaid Expenses,4800.00,4800.00,0.00,OK
+18200,Operating Checking,Operating Checking,85562.55,85562.55,0.00,OK
+18210,Payroll Checking,Payroll Checking,6000.00,6000.00,0.00,OK
+18220,Savings,Savings,50000.00,50000.00,0.00,OK
+21300,Equipment Loan,Equipment Loan,-38400.00,-38400.00,0.00,OK
+21310,Vehicle Loan,Vehicle Loan,-46900.00,-46900.00,0.00,OK
+22100,Accounts Payable,Accounts Payable (A/P),-81160.02,-81160.02,0.00,OK
+22300,Customer Deposits,Customer Deposits,-2500.00,-2500.00,0.00,OK
+22510,Company Credit Card,Company Credit Card,-1842.37,-1842.37,0.00,OK
+23100,"Sales Tax Payable, NC",NC Department of Revenue Payable,-6412.18,-6412.18,0.00,OK
+23110,"Sales Tax Payable, SC",SC Department of Revenue Payable,-1123.40,-1123.40,0.00,OK
+24100,Payroll Liabilities,Payroll Liabilities,-9876.00,-9876.00,0.00,OK
+26700,Accrued Expenses,Accrued Expenses,-3200.00,-3200.00,0.00,OK
+30200,Common Stock,Common Stock,-50000.00,-50000.00,0.00,OK
+30300,Retained Earnings,Retained Earnings,-265349.95,-265349.95,0.00,OK
+30320,Shareholder Distributions,Shareholder Distributions,60000.00,60000.00,0.00,OK
+40140,"Sales, Cleaning Chemicals",Sales:Cleaning Chemicals,-1681240.10,-1681240.10,0.00,OK
+40150,"Sales, Paper & Can Liners",Sales:Paper & Can Liners,-1428917.75,-1428917.75,0.00,OK
+40160,"Sales, Equipment & Tools",Sales:Equipment & Tools,-790384.60,-790384.60,0.00,OK
+40330,Interest Earned,Interest Earned,-918.44,-918.44,0.00,OK
+40390,Delivery Income,Delivery Income,-18425.00,-18425.00,0.00,OK
+40910,Discounts Given,Discounts Given,21406.80,21406.80,0.00,OK
+50110,Cost of Goods Sold,Cost of Goods Sold,2679388.42,2679388.42,0.00,OK
+50130,Freight In,Freight In,21248.02,21248.02,0.00,OK
+50140,Inventory Shrinkage,Inventory Shrinkage,3031.22,3031.22,0.00,OK
+60110,Rent,Rent,72000.00,72000.00,0.00,OK
+60120,Utilities,Utilities,14388.12,14388.12,0.00,OK
+60160,Repairs & Maintenance,Repairs & Maintenance,6310.00,6310.00,0.00,OK
+61900,Depreciation Expense,Depreciation Expense,15450.00,15450.00,0.00,OK
+62120,Fuel,Vehicle Expenses:Fuel,21806.43,21806.43,0.00,OK
+62190,Vehicle Repairs,Vehicle Expenses:Repairs,9400.00,9400.00,0.00,OK
+62340,Travel,Travel,2311.80,2311.80,0.00,OK
+63190,Advertising & Marketing,Advertising & Marketing,6700.00,6700.00,0.00,OK
+63410,Merchant Account Fees,Merchant Account Fees,7814.33,7814.33,0.00,OK
+63420,Meals,Meals,1904.55,1904.55,0.00,OK
+64100,Office Supplies,Office Supplies,3912.66,3912.66,0.00,OK
+64200,Telephone & Internet,Telephone & Internet,4104.00,4104.00,0.00,OK
+64600,Software Subscriptions,Software Subscriptions,5400.00,5400.00,0.00,OK
+65100,Insurance,Insurance,16200.00,16200.00,0.00,OK
+67100,Bank Charges & Fees,Bank Charges & Fees,1096.20,1096.20,0.00,OK
+67200,Interest Expense,Interest Expense,4612.70,4612.70,0.00,OK
+68150,Legal & Professional Fees,Legal & Professional Fees,9500.00,9500.00,0.00,OK
+68190,Contract Labor,Contract Labor,46000.00,46000.00,0.00,OK
+71100,Wages,Payroll Expenses:Wages,662000.00,662000.00,0.00,OK
+71200,Payroll Taxes,Payroll Expenses:Payroll Taxes,50643.00,50643.00,0.00,OK
+71300,Employee Benefits,Payroll Expenses:Employee Benefits,58200.00,58200.00,0.00,OK

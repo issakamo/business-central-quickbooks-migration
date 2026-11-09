@@ -16,6 +16,8 @@ Steps run in order for every trial run and for the production cutover.
 | 1.8 | Apply package QCS-04-CUSTOMERS (built by tools/transform_customers.py) | RapidStart | 40 inserted, 0 errors; C00370 tax area NC-UNION |
 | 1.9 | No. Series CUST: Last No. Used = C00400 | Manual | Next new customer is C00410 |
 | 1.10 | Apply package QCS-05-VENDORS (built by tools/transform_vendors.py) | RapidStart | 22 inserted, 0 errors; V00050 state GA |
+| 1.10a | Apply QCS-06B-ITEM-UOM (tools/transform_item_uom.py 06B) | RapidStart | 61 inserted; CH-1001 has a CASE Item Unit of Measure (I-021) |
+| 1.10b | Apply QCS-06C-ITEM-S-P-UOM (tools/transform_item_uom.py 06C), after 1.10a | RapidStart | 61 modified; CH-1001 Sales and Purch. Unit of Measure = CASE |
 | 1.11 | No. Series VEND: Last No. Used = V00220 | Manual | Next new vendor is V00230 |
 | 1.12 | Apply package QCS-06-ITEMS (built by tools/transform_items.py) | RapidStart | 65 inserted, 0 errors; EQ-3010 base unit PCS; Item Units of Measure created |
 | 1.13 | IRS Forms: reporting period 2026 (1/1–12/31/2026); IRS Forms Guide creates forms and boxes; Vendor Setup: V00010, V00060, V00100, V00190 on 1099-NEC box 1 (I-007 vendors pending W-9 review); set NEC-01 and MISC-01 minimums to 2,000.00 (D-019). | Manual (guide) | Must be done BEFORE importing opening AP (QCS-08) |
