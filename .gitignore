@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Excel lock files created while a workbook is open
+~$*.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db

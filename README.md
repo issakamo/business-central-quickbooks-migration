@@ -41,7 +41,7 @@ flowchart LR
 | Environment | Docker container, BC 28.3 | BC online sandbox, BC 29.0 |
 | Accounts matching QuickBooks | 53 of 55 | **54 of 54** |
 | 25900 Opening Balance Clearing | -0.09 | **0.00** |
-| Manual corrections | — | None |
+| Manual corrections | None (I-018 left unpatched by design, fixed in the method) | None |
 
 What trial run 1 found, and how trial run 2 proved the fixes:
 
