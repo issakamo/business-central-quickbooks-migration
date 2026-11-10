@@ -45,11 +45,26 @@ All five loads (AR, AP, stock, bank, G/L) posted against 25900 Opening Balance C
 
 The packages and scripts were built against BC 28.3 and ran unchanged on BC 29.0, except for I-021, which was found by a check and fixed with two new packages that work on both versions.
 
-## 5. Open items before production cutover
+## 5. Go-live configuration and day-one tests (Phase 3)
 
-- Phase 3 of trial run 2: blocking unused accounts, the period lock, day-one tests dated in October, and the 1099 check (I-011, I-017).
-- I-006, I-007, I-011: 1099 TINs, W-9 review, and Jan–Sep 1099 amounts (accountant).
-- I-020: zero-rate tax details created automatically by BC (check Tax Setup).
+| Step | Test | Result |
+|---|---|---|
+| 3.1 | Block 176 unused template accounts (QCS-14) | 176 modified; no client account blocked |
+| 3.2 | Period lock: Allow Posting From 10/1/2026 | A journal line dated 9/30/2026 was refused; October postings allowed |
+| 3.3 | Day-one tests dated 10/5/2026: sales invoices to NC (C00010), SC (C00060) and an exempt customer (C00070); purchase order; sales order; payment applied to opening invoice 4410 | All results as predicted: tax 13.42 / 11.39 / 0.00; FIFO cost from the opening layer; C00100 balance 7,716.46; units of measure filled in on every line (I-021) |
+| 3.4 | 1099: Jan–Sep amounts entered as IRS 1099 adjustments; October payment on opening bill OB-AP-0018 | BC's 2026 NEC-01 amount for V00010 Andre Coleman = 15,787.24 (14,200.00 + 1,587.24), as predicted (I-011, I-017) |
+| 3.5 | Automatic tax details (I-020) and Tax Setup default accounts (I-022) | Automatic 0% rows explained and kept (D-023); Tax Setup defaults moved off a blocked account |
+| 3.6 | Block 25900 Opening Balance Clearing and the MIGRATION posting setup rows | An item journal line with MIGRATION was refused |
+
+## 6. Open items before production cutover
+
+These are client decisions or data, not defects in the migration method:
+
+- I-006, I-007: 1099 contractors' TINs from W-9s; W-9 review of Freight Way Properties LLC, Wilkes & Partners CPA and Triad Truck & Van Repair (accountant).
+- I-011: at cutover, the accountant confirms the Jan–Sep 1099 amounts from QuickBooks before they are entered as adjustments.
+- D-019: accountant reviews the remaining MISC box minimums against the 2026 IRS instructions.
+- D-023: behavior when a taxable (SUPPLIES) rate is missing for a jurisdiction is untested; accountant to review the tax setup.
+- Payment methods: vendor payment lines highlight Payment Method Code; the client decides which methods to use.
 
 ## Sign-off
 

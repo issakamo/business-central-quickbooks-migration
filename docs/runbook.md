@@ -44,3 +44,9 @@ After posting each opening batch, delete the empty line BC leaves in it
 |---|---|---|---|
 | 3.1 | Create a new company and run every step of Phases 1 and 2 again, using the corrected tools | Runbook | Every check passes with no manual corrections; 25900 Opening Balance Clearing = 0.00 exactly |
 
+| 3.1 | Apply QCS-14-BLOCK-ACCOUNTS | RapidStart | 176 modified |
+| 3.2 | General Ledger Setup: Allow Posting From 10/1/2026; check User Setup has no overriding dates | Manual | A journal line dated 9/30/2026 is refused |
+| 3.3 | Day-one tests dated 10/5/2026: 3 invoices (NC, SC, exempt), PO, SO, payment applied to opening invoice 4410 | Manual | Same results as trial run 1; units of measure fill in on every line (I-021) |
+| 3.4 | IRS 1099 adjustments for Jan–Sep (I-011) from the 1099 contractor summary; pay V00010's opening bill OB-AP-0018; create 2026 1099 documents | Manual | V00010 NEC-01 = 15,787.24 (adjustment + Q4 payment on opening bill, I-017) |
+
+| 3.6 | After reconciliation sign-off: block 25900 Opening Balance Clearing (balance 0.00) and the three MIGRATION General Posting Setup rows | Manual | An item journal line with MIGRATION is refused |
