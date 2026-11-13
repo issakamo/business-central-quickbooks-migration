@@ -1,10 +1,6 @@
 # QuickBooks Online to Business Central Migration
 
-## Video walkthrough
-
-[![Video walkthrough: QuickBooks Online to Business Central migration](docs/video-thumbnail.png)](https://youtu.be/4nT_AlCPxe8)
-
-A 9-minute walkthrough: profiling, mapping, the load, both trial runs and what they found, and go-live readiness.
+**Video walkthrough (9 min):** https://youtu.be/4nT_AlCPxe8
 
 A complete data migration from **QuickBooks Online** to **Microsoft Dynamics 365 Business Central** for a fictional Charlotte distributor, **rehearsed in two trial runs and reconciled to the cent**: in the final run, all 54 accounts with a balance match QuickBooks exactly and the opening balance clearing account ends at **$0.00**.
 
